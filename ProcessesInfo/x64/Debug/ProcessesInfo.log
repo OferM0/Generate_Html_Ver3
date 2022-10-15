@@ -1,0 +1,56 @@
+﻿  20SnapShot.c
+  GenerateHtml.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(236,9): warning C4033: 'createLink' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(251,9): warning C4033: 'createSortSampleHtmlLink' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(291,66): warning C4244: 'function': conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(617,28): warning C4477: 'sprintf' : format string '%zu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'DWORD'
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(617,28): message : consider using '%lu' in the format string
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(570,14): warning C4101: 'currentDll': unreferenced local variable
+  LongSnapShot.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\LongSnapShot.c(52,7): warning C4013: 'kbhit' undefined; assuming extern returning int
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\LongSnapShot.c(54,4): warning C4013: 'gets' undefined; assuming extern returning int
+  ProcessesInfo.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\ProcessesInfo.c(22,27): warning C4244: '=': conversion from 'TCHAR' to 'char', possible loss of data
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\ProcessesInfo.c(49,22): warning C4244: '=': conversion from 'TCHAR' to 'char', possible loss of data
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\ProcessesInfo.c(84,3): warning C4033: 'PrintMemoryInfo' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\ProcessesInfo.c(105,12): warning C4101: 'szModName': unreferenced local variable
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\ProcessesInfo.c(150,11): warning C4047: 'return': 'proccessList *' differs in levels of indirection from 'int'
+  SnapShot.c
+  binaryFIiles.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(100,3): warning C4033: 'LoadFromFile' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(108,3): warning C4033: 'LoadFromFile' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(118,4): warning C4033: 'LoadFromFile' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(127,4): warning C4033: 'LoadFromFile' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(139,5): warning C4033: 'LoadFromFile' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(153,6): warning C4033: 'LoadFromFile' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(169,5): warning C4033: 'LoadFromFile' must return a value
+  main.c
+  proccesStruct.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(22,4): warning C4033: 'addProccessItem' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(164,6): warning C4033: 'SumProccesses' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(187,7): warning C4033: 'SumProccesses' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(258,10): warning C4033: 'SumProccesses' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(353,6): warning C4033: 'removeProccessMultiplies' must return a value
+  sampleStruct.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(23,3): warning C4033: 'addSampleItem' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(112,5): warning C4033: 'getFullProccessListBySampleList' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(190,7): warning C4033: 'getProccessListByDllName' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(264,7): warning C4033: 'removeMultiplies' must return a value
+  sortedProccessList.c
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sortedProccessList.c(81,3): warning C4033: 'sortByDll' must return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sortedProccessList.c(115,4): warning C4033: 'makeCopySortedList' must return a value
+  Generating Code...
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sortedProccessList.c(162): warning C4715: 'makeCopySortedList': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sortedProccessList.c(101): warning C4715: 'sortByDll': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(48): warning C4715: 'addSampleItem': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(158): warning C4715: 'getFullProccessListBySampleList': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(236): warning C4715: 'getProccessListByDllName': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\sampleStruct.c(299): warning C4715: 'removeMultiplies': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(52): warning C4715: 'addProccessItem': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(303): warning C4715: 'SumProccesses': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\proccesStruct.c(395): warning C4715: 'removeProccessMultiplies': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\binaryFIiles.c(183): warning C4715: 'LoadFromFile': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\ProcessesInfo.c(134): warning C4715: 'PrintMemoryInfo': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(256): warning C4715: 'createSortSampleHtmlLink': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\ProcessesInfo\ProcessesInfo\GenerateHtml.c(241): warning C4715: 'createLink': not all control paths return a value
+  ProcessesInfo.vcxproj -> C:\Users\oferm\source\repos\C learning\ProcessesInfo\x64\Debug\ProcessesInfo.exe

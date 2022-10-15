@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------------------------fotter styling---------------------------------*/
+.footer {
+  margin-top: auto;
+  height: auto;
+  background-color: #353536;
+  float: bottom;
+  height: 20vh;
+}
+
+.footer .col {
+  margin-left: 100px;
+  width: 190px;
+  height: 120px;
+  float: left;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0px 5px 0px;
+}
+
+/*the red line under h1*/
+hr {
+  width: 20%;
+  border: 0.5px solid red;
+  margin: 0px 0px 10px 0px;
+  transition: width 1s;
+}
+
+/*make the red line longer when hover the whole ul*/
+.col:hover > hr {
+  width: 60%;
+}
+
+.footer .col ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.footer .col ul li {
+  color: #999999;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+}
+
+/*transform the li in fotter but not the icons which also in li*/
+.footer [class="col"] ul li:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+  transition: 0.5s;
+}
+
+/*display the icon list in row*/
+.social ul li {
+  display: inline-block;
+  padding-right: 2px;
+}
+
+.social ul li img {
+  height: 30px;
+  width: 30px;
+}
+
+/*change icon colors when hover them*/
+.icon11 img:hover {
+  content: url("https://img.icons8.com/ios-filled/50/1A1A1A/z-coordinate.png");
+}
+
+.icon12 img:hover {
+  content: url("https://img.icons8.com/material-outlined/24/1A1A1A/facebook.png");
+}
+
+.icon13 img:hover {
+  content: url("https://img.icons8.com/material-outlined/24/1A1A1A/linkedin--v1.png");
+}
+
+.icon1 img:hover {
+  content: url("https://img.icons8.com/material-outlined/24/1A1A1A/linkedin--v1.png");
+}
+
+.icon2 img:hover {
+  content: url("https://img.icons8.com/windows/32/1A1A1A/github-squared.png");
+}
+
+.icon3 img:hover {
+  content: url("https://img.icons8.com/ios-filled/50/1A1A1A/apple-mail.png");
+}
+
+/*-------------------------------header styling---------------------------------*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(63, 95, 114);
+  height: 10vh;
+}
+
+.header-menu {
+  display: flex;
+  list-style: none;
+}
+
+.header-menu > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-right: 20px;
+}
+
+/*display the icon near text in each header a*/
+a {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*the icons in header*/
+.header-menu > li > a > img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.header-menu > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.header-menu > li > a:hover {
+  padding: 10px 20px;
+  background: #353536;
+  color: white;
+  border-radius: 5px;
+}
+
+/*-------------------------------main styling---------------------------------*/
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.left-content {
+  width: 50%;
+  text-align: center;
+  border-right: red solid 1.5px;
+}
+
+.right-content {
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  color: #133b4f;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+  line-break: anywhere;
+}
+
+.left-content > p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 1.5;
+}
+
+video {
+  width: 525px;
+  height: 280px;
+  border-radius: 30px;
+  box-shadow: rgb(63, 95, 114) 0px 30px 45px;
+}
+
+main > div > p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: large;
+  line-height: 2;
+  color: orangered;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main > div > h3 {
+  color: rgb(63, 95, 114);
+  text-align: center;
+}
+
+table {
+  margin: 15px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) > td {
+  background-color: #dddddd;
+  border: 1px solid white;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+td:not(.warning-icon) {
+  max-width: 100px;
+  overflow: auto;
+  white-space: nowrap;
+  direction: rtl;
+}
+
+.link {
+  direction: ltr;
+}
+
+.btn {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  cursor: pointer;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+}
+
+.btn:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.btn a {
+  color: rgb(63, 95, 114);
+  text-decoration: none;
+}
+
+table {
+  text-align: left;
+}
+
+table a,
+td {
+  color: #353536;
+}
+
+th {
+  color: rgb(63, 95, 114);
+}
+
+.warning-icon p {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.warning-icon img {
+  height: 30px;
+  margin-left: 5px;
+  padding: 0;
+  float: left;
+}
+
+.box select {
+  color: white;
+  background-color: rgb(63, 95, 114);
+  padding: 5px 0 5px 0;
+  border-radius: 10px;
+  width: 125px;
+  text-align: center;
+}
+
+option:not(.option-h) {
+  text-align: left;
+}

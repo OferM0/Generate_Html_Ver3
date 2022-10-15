@@ -1,0 +1,69 @@
+</tr>
+        </table>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="col">
+        <h1>Contact Me</h1>
+        <hr />
+        <ul>
+          <li>052-801-6257</li>
+          <li>ofermordehai@gmail.com</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1>Contact Zionet</h1>
+        <hr />
+        <ul>
+          <li>050-888-4772</li>
+          <li>info@zion-net.co.il</li>
+          <li>P.O.B 25 Binyamina, Israel</li>
+        </ul>
+      </div>
+      <div class="col social">
+        <h1>Zionet Company</h1>
+        <hr />
+        <ul>
+          <li class="icon11">
+            <a href="https://www.zion-net.co.il/en/" target="_blank"
+              ><img src="images/icons8-z-coordinate-50.png"
+            /></a>
+          </li>
+          <li class="icon12">
+            <a href="https://www.facebook.com/zionet.co.il/" target="_blank"
+              ><img src="images/icons8-facebook-50.png"
+            /></a>
+          </li>
+          <li class="icon13">
+            <a href="https://www.linkedin.com/company/zion-net/" target="_blank"
+              ><img src="images/icons8-linkedin-50.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col social">
+        <h1>My Social</h1>
+        <hr />
+        <ul>
+          <li class="icon1">
+            <a
+              href="https://www.linkedin.com/in/ofer-mordehai-40b448252/"
+              target="_blank"
+              ><img src="images/icons8-linkedin-50.png"
+            /></a>
+          </li>
+          <li class="icon2">
+            <a href="https://github.com/OferM0" target="_blank"
+              ><img src="images/icons8-github-squared-32.png"
+            /></a>
+          </li>
+          <li class="icon3">
+            <a href="mailto: ofermordehai0@gmail.com" target="_blank"
+              ><img src="images/icons8-mail-50.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
